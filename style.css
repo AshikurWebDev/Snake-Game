@@ -1,0 +1,61 @@
+*{
+    font-family: cursive;
+   
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+h1,p{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: orangered;
+}
+
+.start{
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background: rgb(25, 153, 115);
+    
+}
+
+.start:hover{
+    cursor: pointer;
+    background: rgb(57, 209, 163);
+}
+
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+.snake{
+    background-color: blue;
+
+}
+
+.apple{
+    background-color: purple;
+}
+
+.GameOver{
+    color: red;
+}
+
+.point{
+    color: rgb(57, 115, 240);
+}
+
